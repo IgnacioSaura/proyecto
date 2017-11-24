@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right, rgb(6, 6, 17), rgb(6, 43, 189));
+    
+    }
+    .palabra {
+        font-size:40px;
+        
+        color: rgb(32, 4, 46);
+                    border-radius: 20px;
+                    font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+        
+                }
+                .palabra2 {
+                    font-size:20px;
+                    
+                    color: rgb(32, 4, 46);
+                                border-radius: 20px;
+                                font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+                    
+                            }
+                            .textbox
+                            {
+                              
+                            border: 1px solid rgb(22, 65, 133);
+                            font-size: 18px;
+                            font-family: Arial, Verdana;
+                            padding-left: 7px;
+                            padding-right: 7px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            border-radius: 4px;
+                            -moz-border-radius: 4px;
+                            -webkit-border-radius: 4px;
+                            -o-border-radius: 4px;
+                            background: rgb(43, 82, 209);
+                            background: linear-gradient(left, rgb(22, 96, 181), rgb(25, 144, 204));
+                            background: -moz-linear-gradient(left, rgb(22, 25, 193), rgb(7, 116, 170));
+                            background: -webkit-linear-gradient(left, rgb(20, 15, 118), rgb(9, 115, 169));
+                            background: -o-linear-gradient(left, rgb(19, 16, 191), rgb(9, 103, 150));
+                            color: rgb(5, 5, 5);
+                            }
+                            .boton{
+                             
+                                font-size:10px;
+                                font-family:Verdana,Helvetica;
+                                font-weight:bold;
+                                color:white;
+                                background:#638cb5;
+                                border:0px;
+                                width:80px;
+                                height:19px;
+                               }

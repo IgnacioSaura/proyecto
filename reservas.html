@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="Css/stylesreserva.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/reservas.css"/>
+    
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div style="margin-left: 20px;">
+            <h1>COPAVIAJES</h1>
+            <p>Reservar tus viajes..</p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3">
+                <form class="form-horizontal" id="addFilmForm" action="" method="post" style="text-align: start;" onsubmit="addFilm(event, this)">
+                    <fieldset>
+                        <legend>Ingresar datos</legend>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="filmName">Nombre/Apellido:</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="filmName" type="text" name="filmName" placeholder="Ingresar tu nombre y apellido" required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="filmYear">Telefono:</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="filmYear" type="text"  name="filmYear" placeholder="Ingresar su telefono"
+                                    required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filmGenre" class="control-label col-sm-2">Viajo a:</label>
+                            <div class="col-sm-10">
+                                <select id="filmGenre" class="form-control" required>
+                                    
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Colombia">Colombia</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filmVoters" class="control-label col-sm-2">A viajar:</label>
+                            <div class="col-sm-10">
+                                <input id="filmVoters" type="number" min="1" name="filmVoters" placeholder="Ingresar cantidad de personas que viajaran" class="form-control"
+                                    required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="filmTotalVotes" class="control-label col-sm-2">Total a pagar(dolares):</label>
+                            <div class="col-sm-10">
+                                <input id="filmTotalVotes" type="number" min="1" name="filmTotalVotes" placeholder="Ingresar total de los gastos" class="form-control"
+                                    required />
+                            </div>
+                        </div>
+
+                        <div class="pull-right">
+                            <button class="btn btn-default" onclick="cleanAddFilmForm(document.getElementById('addFilmForm'))">Borrar</button>
+                            <button type="submit" class="btn btn-primary">Consultar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 10px">
+            <form id="filterFilmsForm" action="" method="post" onsubmit="filterFilms(event, this)" class="form-inline col-xs-12">
+                <fieldset>
+                   
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="table-responsive">
+                    <table id="filmsTable" class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Nombre
+                                    
+                                </th>
+                                <th>Telefono</th>
+                                <th>Viajo a</th>
+                                <th>A pagar por persona(dolares)</th>
+                                <th>Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="filmsTableBody">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Javascript/filmDAO.js"></script>
+    <script src="Javascript/indexcine.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>

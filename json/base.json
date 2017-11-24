@@ -1,0 +1,49 @@
+{
+  "films": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "asdasd",
+      "year": 1,
+      "genre": "Acción",
+      "voters": 1,
+      "totalVotes": 1,
+      "raiting": "1.00",
+      "id": 4
+    },
+    {
+      "name": "Dbz",
+      "year": 1891,
+      "genre": "Ciencia Ficción",
+      "voters": 20,
+      "totalVotes": 700,
+      "raiting": "35.00",
+      "id": 5
+    },
+    {
+      "name": "Peñarol",
+      "year": 1891,
+      "genre": "Acción",
+      "voters": 1000,
+      "totalVotes": 100000,
+      "raiting": "100.00",
+      "id": 6
+    },
+    {
+      "name": "Titanic",
+      "year": 1999,
+      "genre": "Drama",
+      "voters": 100,
+      "totalVotes": 2,
+      "raiting": "0.02",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to right, rgb(6, 6, 17), rgb(6, 43, 189));
+}
+
+
+        #posi > img{
+                  position: absolute;
+        width: 1200px;
+        height: 500px;
+        left:85px;
+        top:120px;
+        border-radius:60px;
+
+        }
+         #dest {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(yellow,red);
+            -webkit-background-clip: text;
+            color: transparent;  
+            border-radius: 20px;
+            font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+            float: left;
+            text-align: left;
+            margin-top: 250px;
+            top:20px;
+            left: 553px;
+            padding: 5px;
+            margin : 0;     
+            font-size: 50px;   
+    
+       border-radius: 80px;
+
+        }
+           #bandera{
+            position:absolute;
+             top:60px;
+            left: 0px;
+            width: 1365px;
+            height: 50px;
+
+           }
+             #barranquilla {
+                position: absolute;
+
+             left:270px;
+        top:100px;           
+            border-radius: 20px;
+            font-size: 60px;
+            font-family: serif;
+
+
+        }
+        #bogota {
+                position: absolute;
+
+             left:820px;
+        top:100px;           
+            border-radius: 20px;
+            font-size: 60px;
+            font-family: serif;
+
+
+        }
+        #dest2 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(rgb(255, 255, 255),rgb(31, 156, 160));
+            -webkit-background-clip: text;
+            color: transparent;  
+            border-radius: 20px;
+            font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+            float: left;
+            text-align: left;
+            margin-top: 250px;
+            top:20px;
+            left: 553px;
+            padding: 5px;
+            margin : 0;     
+            font-size: 50px;   
+    
+       border-radius: 80px;
+
+        }
+        
+        

@@ -1,0 +1,116 @@
+ body{
+	background: linear-gradient(to right, rgb(6, 6, 17), rgb(6, 43, 189));
+}
+    #posi > img{
+                  position: absolute;
+        width: 550px;
+        height: 290px;
+        left:425px;
+        top:410px;
+        border-radius:60px;
+
+        }
+
+ #palabra {
+     position: absolute;
+     top:170px;
+     color: black;
+                
+text-align: center;      
+            
+            font-size: 30px;
+            font-family: serif;
+
+
+        }
+
+           #bandera{
+            
+             top:60px;
+            left: 0px;
+            width: 1365px;
+            height: 50px;
+
+           }
+ #plabra {
+
+                
+text-align: center;      
+
+            
+            font-size: 60px;
+			font-family: serif;
+			background: linear-gradient(yellow,red);
+			-webkit-background-clip: text;
+			color: transparent;  
+            border-radius: 20px;
+            font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+
+
+        }
+
+* {
+				margin:0px;
+				padding:0px;
+               
+                
+                
+			}
+			
+			#header {
+				position:absolute;
+                top: 20px;
+                left: 20px;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+                
+			}
+			
+			ul, ol {
+				list-style:none;
+                
+			}
+            
+
+            
+			
+			.nav > li {
+				float:left;
+                
+
+                
+			}
+			
+			.nav li a {
+				background-color:rgb(9, 32, 90);
+				color:yellow;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+                
+			}
+			
+			.nav li a:hover {
+				background-color:blue;
+                
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:240px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			

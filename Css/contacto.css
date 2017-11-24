@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(to right, rgb(6, 6, 17), rgb(6, 43, 189));
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+#dest{
+    
+                
+                color: rgb(32, 4, 46);
+                            border-radius: 20px;
+                            font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
+                float: center;
+                text-align: center;
+                margin-top: 250px;
+                padding: 5px;
+                margin : 0;
+             
+               
+                font-size: 50px;
+            }
+            form{
+                width:450px;
+                margin:auto;
+                background: rgba(0,0,0,0.4);
+                padding: 10px 20px;
+                box-sizing: border-box;
+                margin-top:20px;
+                border-radius:20px;
+            }
+            input , textarea{
+                width:100%;
+                margin-bottom: 20px;
+                padding: 7px;
+                box-sizing: border-box;
+
+            }
+            textarea{
+                min-height: 100px;
+                max-height: 200px;
+                max-width: 100%;
+            }
+            #boton{
+                background: rgb(17, 2, 36);
+                color: rgb(255, 255, 255);
+                padding: 20px;
+            }
+    
